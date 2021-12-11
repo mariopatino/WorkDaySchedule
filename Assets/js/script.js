@@ -5,7 +5,7 @@ var calendarContainer = document.querySelector(".container");
 
 
 var workingHours = [9,10,11,12,13,14,15,16,17,18,19];  // Arry for working hours from 9 am to 5 pm 
-var currentHour = 10; //parseInt(today.format("H"));
+var currentHour = parseInt(today.format("H"));
 var hourAMPM = "";
 var colorRow = "";
 var isDisable= "";
